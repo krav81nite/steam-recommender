@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:8000'
+const API = 'https://steam-recommender-qscb.onrender.com'
 const HEADER_IMG = (appid) => `https://cdn.akamai.steamstatic.com/steam/apps/${appid}/header.jpg`
 
 export default function GameDetail({ game, onRemove }) {

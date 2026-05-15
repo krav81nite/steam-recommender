@@ -4,7 +4,7 @@ import SearchBar from './components/SearchBar'
 import GameDetail from './components/GameDetail'
 import GameCard from './components/GameCard'
 
-const API = 'http://localhost:8000'
+const API = 'https://steam-recommender-qscb.onrender.com'
 
 export default function App() {
   const [selected, setSelected] = useState([])

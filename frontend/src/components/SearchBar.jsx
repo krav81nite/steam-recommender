@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const API = 'http://localhost:8000'
+const API = 'https://steam-recommender-qscb.onrender.com'
 const THUMB = (appid) =>
   `https://cdn.akamai.steamstatic.com/steam/apps/${appid}/capsule_231x87.jpg`
 
