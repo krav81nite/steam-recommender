@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — ignore raw/personal files, keep features.pkl
+data/steamspy_games.csv
+data/owned_games.csv
+data/game_details.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1b2838; color: #c6d4df; font-family: Arial, sans-serif; }
+img { display: block; }
+button { cursor: pointer; font-family: inherit; }
